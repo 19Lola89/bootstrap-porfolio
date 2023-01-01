@@ -71,6 +71,27 @@ height: 25%;
    
 }
 
+/* card container for projects section */
+
+
+
+
+.divisionContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+
+}
+
+.card {
+
+    margin: 20px;
+    border: 4px black solid;
+
+}
+
+
+*/
+
 
 /*.jumbotron h1 {
    color: beige;
@@ -79,6 +100,11 @@ height: 25%;
    position: absolute;
   top: calc(50% + 50px);
   transform: translateY(-50%);
+}
+
+.division-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .font {
