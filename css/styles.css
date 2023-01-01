@@ -31,16 +31,61 @@
         width: 150px;
         height: 150px;
         background-color:grey;
-        color: aliceblue;
+        color: beige;
         font-size: 20px;
         border: none;
         border-radius: 0;
         clip-path:circle(50%)
 }
 
-
 .jumbotron {
+
+    position: relative;
+    height: 500px;
     background-image: url(../portfolio_images/ciurlionis.jpeg);
     overflow: hidden;
     border-radius: 10px;
+    padding-bottom: 200px;
+    
 }
+
+.font {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: beige;
+ text-align: center;
+ font-weight: bolder;
+}
+
+.butn { 
+    color: beige !important; 
+    background-color: gray;
+    width: 25%;
+    height: 25%;
+   
+}
+/*.jumbotron h1 {
+   color: beige;
+   font-weight: bold;
+   text-align: center;
+   position: absolute;
+  top: calc(50% + 50px);
+  transform: translateY(-50%);
+}
+
+.font {
+    margin: 0px;
+    text-align: center;
+    color: beige;
+    word-spacing: 1vh;;
+ 
+ }
+ .lead {
+ 
+     font-weight: 800;
+     font-size: xx-large;
+     padding: 40px;
+ }
+ */
