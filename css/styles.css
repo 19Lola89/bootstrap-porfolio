@@ -1,5 +1,7 @@
 
 
+
+/* navigation bar properties */
 .navbar {
     width: 100%;
     height: 100%;
@@ -28,24 +30,26 @@
 }
 
 .cta {
-        width: 150px;
-        height: 150px;
-        background-color:grey;
-        color: beige;
-        font-size: 20px;
-        border: none;
-        border-radius: 0;
-        clip-path:circle(50%)
+width: 150px;
+height: 150px;
+background-color:grey;
+color: beige;
+font-size: 20px;
+border: none;
+border-radius: 0;
+clip-path:circle(50%)
 }
+
+/*jumbotron properties */
 
 .jumbotron {
 
-    position: relative;
-    height: 500px;
-    background-image: url(../portfolio_images/ciurlionis.jpeg);
-    overflow: hidden;
-    border-radius: 10px;
-    padding-bottom: 200px;
+position: relative;
+height: 500px;
+background-image: url(../portfolio_images/ciurlionis.jpeg);
+overflow: hidden;
+border-radius: 10px;
+padding-bottom: 200px;
     
 }
 
@@ -60,12 +64,14 @@
 }
 
 .butn { 
-    color: beige !important; 
-    background-color: gray;
-    width: 25%;
-    height: 25%;
+color: beige !important; 
+background-color: gray;
+width: 25%;
+height: 25%;
    
 }
+
+
 /*.jumbotron h1 {
    color: beige;
    font-weight: bold;
