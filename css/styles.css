@@ -73,51 +73,19 @@ height: 25%;
 
 /* card container for projects section */
 
-
-
-
-.divisionContainer {
+.container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr );
-
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:1em;
 }
-
-.card {
-
-    margin: 20px;
-    border: 4px black solid;
-
-}
-
-
-*/
-
-
-/*.jumbotron h1 {
-   color: beige;
-   font-weight: bold;
-   text-align: center;
-   position: absolute;
-  top: calc(50% + 50px);
-  transform: translateY(-50%);
-}
-
-.division-container {
+.pageBreak {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 35% 65%;
+    border : black 2px solid;
+    background-color:rgb(214, 212, 207);
 }
 
-.font {
-    margin: 0px;
-    text-align: center;
-    color: beige;
-    word-spacing: 1vh;;
- 
- }
- .lead {
- 
-     font-weight: 800;
-     font-size: xx-large;
-     padding: 40px;
- }
- */
+.card:hover {
+    color: blanchedalmond;
+}
+
