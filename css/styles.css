@@ -71,21 +71,56 @@ height: 25%;
    
 }
 
-/* card container for projects section */
+.pageBreak {
+    display: grid;
+    grid-template-columns: 30% 70%;
+   
+   
+}
 
 .container {
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    grid-gap:1em;
+    grid-gap: 10px;
 }
-.pageBreak {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    border : black 2px solid;
-    background-color:rgb(214, 212, 207);
-}
+.left {
 
+    background-color:rgb(214, 212, 207);
+    border-right : black 2px solid;
+    color: beige;
+    text-align: center;
+    border-radius: 10px;
+}
+.card {
+    background-color: rgb(214, 212, 207); 
+    box-shadow: 0 20px 20px rgba(249, 139, 139, 0);
+    transition: box-shadow 0.3s;
+}
 .card:hover {
     color: blanchedalmond;
+
+}
+#title {
+    color: beige;
 }
 
+/* About me section properties */
+
+.theme {
+    background-color:rgb(214, 212, 207);
+    margin-top: 10px;
+    color: beige;
+    font-weight: 300;
+    border-radius: 10px;
+    word-spacing: 2px;
+    text-align: center;
+
+}
+
+/* card container for projects section 
+
+ 
+
+
+}
+*/
