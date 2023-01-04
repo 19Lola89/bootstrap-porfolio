@@ -97,11 +97,18 @@ height: 25%;
     transition: box-shadow 0.3s;
 }
 .card:hover {
-    color: blanchedalmond;
+    color: beige;
 
 }
-#title {
+.title {
+    color: rgba(73, 70, 70);
+    
+}
+
+.title:hover {
     color: beige;
+    text-decoration: none;
+
 }
 
 /* About me section properties */
@@ -109,18 +116,36 @@ height: 25%;
 .theme {
     background-color:rgb(214, 212, 207);
     margin-top: 10px;
-    color: beige;
+    color:rgba(81, 77, 77);
     font-weight: 300;
     border-radius: 10px;
     word-spacing: 2px;
-    text-align: center;
+    text-align: center; } 
+
+/* card container for projects section */
+
+.aboutme {
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 5px;
+    grid-gap:10px;
+    padding: 10px;
+    
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
-
-/* card container for projects section 
-
- 
-
+.me {
+  width: 50%;
 
 }
-*/
+.picture {
+    border: 10px rgb(12, 0, 0) solid;
+
+}
