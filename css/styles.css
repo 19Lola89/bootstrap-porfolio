@@ -98,6 +98,7 @@ height: 25%;
 }
 .card:hover {
     color: beige;
+    transform:scale(1.2);
 
 }
 .title {
@@ -133,6 +134,8 @@ height: 25%;
     padding: 10px;
     
 }
+
+/* about me section */
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -146,6 +149,66 @@ height: 25%;
 
 }
 .picture {
-    border: 10px rgb(12, 0, 0) solid;
+   border: 5px black solid;
+   background-color: rgba(73, 70, 70);
+   margin: none;
+   border-radius: 20px;
+
 
 }
+
+.skills {
+    margin:10px;
+    padding: 30px;
+    
+}
+.skills:hover {
+
+    transform:scale(1.2);
+}
+
+/* footer and contact */
+
+.footer {
+
+    display: flex;
+    box-shadow: 4px solid black;
+    justify-content: space-evenly;
+    padding: 10px
+}
+
+
+.footer-pr a {
+
+    border-radius: 8px;
+    color: black;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+}
+.footer-pr:hover {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+@media (max-width: 983px) {
+ .container {
+ display:grid;
+ grid-template-columns: repeat(2, 1fr)
+
+ }
+}
+
+@media (max-width: 592px) {
+.container {
+display:grid;
+grid-template-columns: repeat(1, 1fr)
+       
+        }
+}
+@media (max-width: 1201px) {
+.picture {
+   display:none;
+}   
+}
+

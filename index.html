@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Web designer page</title>
+    <title>Lola's page</title>
 </head>
 <body>
      <!-- Navigation bar Below -->
@@ -15,7 +15,7 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img class="profile_pic" src="portfolio_images/lola.jpg" height="200px" width="200px" alt="profile picture">
       <div class="figure">
-        <a class="navbar-brand navigation" href="#">About Me</a>
+        <a class="navbar-brand navigation" href="#about">About Me</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,14 +24,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link navigation" href="#">Skills <span class="sr-only">(current)</span></a>
+              <a class="nav-link navigation" href="#qualities">Skills <span class="sr-only">(current)</span></a>
             </li>
 
-
-            <!-- not needed part of nav bar 
-              <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>-->
 
             <li class="nav-item dropdown navigation">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,19 +41,9 @@
                 <a class="dropdown-item" href="#project6">Project 6</a>
               </div>
 
-                <!--not needed part to be deleted after 
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-                -->
-            </li>
-            <!--
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-            -->
           </ul>
         
-          <button type="button" class="btn btn-light cta">Get in touch</button>
+         <button type="button" class="btn btn-light cta" onclick="location.href='#contact'">Get in touch </button>
          
           
 
@@ -101,7 +86,7 @@
 
     <div class="right">
       <div class="container">
-        <div class="card project1" style="width: 18rem;">
+        <div class="card" id="project1" style="width: 18rem;">
           <img src="portfolio_images/airsea.jpeg" width="200px" height="350px" class="card-img-top" alt="sea">
           <div class="card-body">
             <h5 class="card-title">Project 1</h5>
@@ -110,7 +95,7 @@
           </div>
         </div>
 
-        <div class="card project2" style="width: 18rem;">
+        <div class="card" id="project2" style="width: 18rem;">
         <img src="portfolio_images/infogra.jpeg" width="200px" height="350px" class="card-img-top" alt="circles">
         <div class="card-body">
           <h5 class="card-title">Project 2</h5>
@@ -119,7 +104,7 @@
         </div>
       </div>
   
-        <div class="card project3" style="width: 18rem;">
+        <div class="card" id="project3" style="width: 18rem;">
           <img src="portfolio_images/graphics.jpeg" width="200px" height="350px" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Project 3</h5>
@@ -128,28 +113,28 @@
           </div>
         </div>
 
-        <div class="card project4" style="width: 18rem;">
+        <div class="card" id="project4" style="width: 18rem;">
           <img src="portfolio_images/futurama.jpeg" width="200px" height="350px"  class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
+            <h5 class="card-title">Project 4</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-light">Learn more</a>
           </div>
         </div>
 
-        <div class="card project5" style="width: 18rem;">
+        <div class="card" id="project5" style="width: 18rem;">
           <img src="portfolio_images/lukiskes.jpg"width="200px" height="350px" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
+            <h5 class="card-title">Project 5</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-light">Learn more</a>
           </div>
         </div>
 
-        <div class="card project6" style="width: 18rem;">
+        <div class="card" id="project6" style="width: 18rem;">
           <img src="portfolio_images/fest.jpg" width="200px" height="350px" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Project 4</h5>
+            <h5 class="card-title">Project 6</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-light">Learn more</a>
           </div>
@@ -167,33 +152,64 @@
   <div id="about" class="theme">
   <a href="#" class="title"><h1>About Me</h1></a>
 
+  <div class="flex-container">
+
     <div class="me">
     <p class="text">Life is too short to focus on unimportant things. One small paragraph will not add value to a big picture. I encourage to look for growth in all aspects of life and let results speak for themselves. 
      I do not have much to say at this stage and it may sound quite boring, however I am hoping to edit this webpage as I go along my tech path. So I consider this intro as a pivotal turning point in my career and personal life.</p>
     </div>
 
-
-    <div class="me">
-      <img src="portfolio_images/sea.jpg" width="300px" height="300px" alt="my sea experience">
+    <div class="me picture">
+      <img src="portfolio_images/sea.jpg" width="300px" height="300px" id="sea"alt="my sea experience">
     </div>
     </div>
-
-   
-
-
-  <div class="theme">
+  </div>
+  <div class="theme" id="qualities">
     <a href="#" class="title"><h1> Skills and qualities </h1></a>
-    <p class="text">This is the part where I should brag a little bit about my strengths and weaknesses, but I have decided to put in bulletpoints. Those are both what I would like to learn and aquire and those which I already have.</p>
-      
+    <p class="text">This is the part where I should brag a little bit about my strengths and weaknesses, but I have decided to put in bulletpoints. Those are both what I would like to learn and aquire and those which I already have.</p>  
+
+
+   <!--skills section-->
+  
+
+   <div class="skills">
+    <button type="button" class="btn btn-light ">Driven and motivated to gain knowledge</button>
+    <button type="button" class="btn btn-light ">Organised and attentive</button>
+    <button type="button" class="btn btn-light ">Persuing generative art skills </button>
+
+   </div>
+
+    <div class="skills">
+    <button type="button" class="btn btn-light ">Interested in learning front-end web design</button>
+    <button type="button" class="btn btn-light ">Researching potential roles to fit my skills</button>
+    <button type="button" class="btn btn-light ">Good communicator</button>
+    </div>
+  
+    </div>
+
   </div>
 
 </div>
+  <!-- Footer and contact-->
 
+  <div class="footer" id="contact" >
 
-  <!--About me section ends-->
+    <div class="footer-pr">
+      <a href="#"> 📧 lkasimova@hotmail.co.uk </a> 
+    </div>
+    <div class="footer-pr">
+      <a href="#">☎️ 07976891076 </a> 
+    </div>
+    <div class="footer-pr">
+      <a href="#">LinkedIn </a>
+    </div>
+    <div class="footer-pr">
+      <a href="#">Github </a>
+    </div>
+    
+  </div>
   
-  <!--skills section-->
-  
+
 
 
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
