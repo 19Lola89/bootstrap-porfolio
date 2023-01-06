@@ -23,5 +23,5 @@ N/A
 
 MIT
 
-## Deplyment link and screenshot
+## Deployment link and screenshot
 
