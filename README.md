@@ -21,7 +21,11 @@ N/A
 
 ## Credits
 
+
 MIT
 
 ## Deployment link and screenshot
+
+<img width="1440" alt="Screenshot 2023-01-06 at 15 57 39" src="https://user-images.githubusercontent.com/86410482/211049651-adb27d82-64c5-4a5b-a8f0-229b944fc5c8.png">
+
 
